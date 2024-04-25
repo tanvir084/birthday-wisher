@@ -7,11 +7,11 @@ Welcome to the Birthday Wisher project! This application automatically checks an
 
 ### 1. Automated Multiple Customer Registration
 
-The backend automatically generates up to 5 dummy customer records with random names, birthdates, and email addresses. This automated feature eliminates the need for user input, making the registration process seamless and hassle-free.
+The backend can generate up to 5 dummy customer records with random user names, birthdates, and email addresses by hitting an API endpoint. This automated feature provides a flexible way to register customers without requiring user input, making the registration process seamless and hassle-free.
 
 ### 2. Automated Birthday Wishing Scheduler
 
-The backend can generate up to 5 dummy customer records with random user names, birthdates, and email addresses by hitting an API endpoint. This automated feature provides a flexible way to register customers without requiring user input, making the registration process seamless and hassle-free.
+The application automatically checks the birthdates of the registered customers against the current date every day during the first hour at 12 AM (midnight). When the birthdate of a customer matches the current date, the application schedules and sends out personalized birthday wishes via email. This feature ensures timely and automated birthday greetings without user intervention.
 
 ## Technologies Used
 1. Node.js
