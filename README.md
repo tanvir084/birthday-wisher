@@ -36,7 +36,7 @@ Follow these steps to get started with the Birthday Wisher project run locally:
 
 1. **Clone the Project:**
    ```bash
-   git clone https://github.com/tanvir084/routine-planner-be.git
+   git clone https://github.com/tanvir084/birthday-wisher.git
    ```
 
 2. **Navigate to Project Folder:**

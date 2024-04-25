@@ -4,7 +4,6 @@ services:
   mongodb:
     image: mongo:5.0.2
     restart: unless-stopped
-    env_file: ./.env
     environment:
       - MONGO_INITDB_ROOT_USERNAME
       - MONGO_INITDB_ROOT_PASSWORD
@@ -17,9 +16,8 @@ services:
       - mongodb
     build: ./birthday-wisher
     restart: unless-stopped
-    env_file: ./birthday-wisher/.env
     ports:
-      - ${SERVER_PORT:-8080}:${SERVER_PORT:-8080}
+      - 8080:8080
     stdin_open: true
     tty: true
 
